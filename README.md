@@ -44,10 +44,10 @@ Text & Image, Title, Photo Gallery of Feed
 
 You could display the listings in 4 different display type:
 
-**Text & Image** By this view, you can list your contents by their image, text and all other deatails.
-**Title Only** By this view, you can list your contents by their title and some deatails. No image and text exist in this view.
-**Photo Gallery** By this view, you can change the contents to a simple photo gallery!
-**Feed** By this view, you can change the contents to an RSS feed!
+* **Text & Image** By this view, you can list your contents by their image, text and all other deatails.
+* **Title Only** By this view, you can list your contents by their title and some deatails. No image and text exist in this view.
+* **Photo Gallery** By this view, you can change the contents to a simple photo gallery!
+* **Feed** By this view, you can change the contents to an RSS feed!
 
 #### It fits by your device and color!
 This extension fixed with your template width and apadpt with your device width! Displaying in phone is different from tablet and desktop. We determined all the conditions and made really flexible user interface.
@@ -104,6 +104,6 @@ You can install this project by downloading the zip file of repository and then 
 
 ## Open Source License
 
-Egolt Tooltip is an Open Source web-based project. It is in compliance with the GNU/GPL license:
+Egolt Archive is an Open Source web-based project. It is in compliance with the GNU/GPL license:
 [GNU General Public License, version 2
 ](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
