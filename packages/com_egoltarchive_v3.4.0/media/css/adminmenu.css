@@ -1,0 +1,21 @@
+.warn {
+	color: red;
+}
+.egspacer {
+	font-weight:bold;
+}
+h3#jcontent_setting-options,
+h3#ti_setting-options,
+h3#fd_setting-options,
+h3#to_setting-options,
+h3#pg_setting-options,
+h3#paging-options,
+h3#searchbox-options
+{
+	background-color: #E9F7EC;
+}
+h3#advanced-options,
+h3#archivesource-options
+{
+	background-color: #E9ECF7;	
+}

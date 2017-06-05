@@ -1,0 +1,42 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+ 
+.egclmodcal, .egclmodcal input, .egclmodcal select {
+	font-family: Tahoma, Arial;
+}
+.egclmodcal .cal-caption .pnx {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.egclmodcal .egcal td:first-child {
+	border-left: 1px solid #eaeaea;
+	border-right: 0;
+}
+.egclmodcal .egcal td:first-child a {
+	border-right: 0;
+	border-left: 1px solid #eaeaea;
+	margin-right: 0;
+}
+.egclmodcal .egcal td:last-child a {
+	border-left: 0;
+	border-right: 1px solid #eaeaea;
+	margin-left: 0;
+}
+.egclmodcal .cal-caption .prev {
+	float: right;
+}
+.egclmodcal .cal-caption .next {
+	float: left;
+}
+.egclmodcal .cal-body td {
+	border-left: 0;
+	border-right: 1px solid #eaeaea;
+}

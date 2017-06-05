@@ -1,0 +1,35 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+ 
+.egoltarchive .categorys,
+.egoltarchive .authors,
+.egoltarchive .sort,
+.egoltarchive .like,
+.egoltarchive .notlike {
+	padding-right: 35px;
+	padding-left: 0;
+}
+.egoltarchive .dsheader {
+	background-position: 99% center;
+	padding: 9px 40px 6px 5px;
+}
+.egoltarchive div .categorys,
+.egoltarchive div .like,
+.egoltarchive div .notlike,
+.egoltarchive div.authors,
+.egoltarchive div.sort {
+	background-position: 99% 50%;
+}
+.egoltarchive .checkexact {
+	margin-right: 10px;
+	margin-left: 3px;
+}

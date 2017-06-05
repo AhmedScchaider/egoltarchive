@@ -1,0 +1,21 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+
+.egoltarchive  select {
+	background-color: #efefef;
+	border-color: #dedede;
+}
+.egoltarchive .noresult {
+	color: #eee;
+	background-color: #4E51D8;
+	border-color: #7375D8;
+}

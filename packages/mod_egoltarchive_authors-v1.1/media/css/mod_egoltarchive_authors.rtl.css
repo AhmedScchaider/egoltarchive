@@ -1,0 +1,34 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+ 
+.egarmodatrs, .egarmodatrs input, .egarmodatrs select {
+	font-family: Tahoma, Arial;
+}
+.egarmodatrs ul.egmenu > li.egyear2 {
+	padding-left: 0;
+	padding-right: 15px;
+}
+.egarmodatrs ul.egmenu > li.egauthor {
+	background-position: 99% center;
+	padding-left: 0;
+	padding-right: 28px;
+}
+.egarmodatrs ul.egmenu > li.egauthor a {
+	display: inline-flex;
+}
+.egarmodatrs ul.egmenu > li.egauthor a small{
+	padding-right: 5px;
+}
+.egarmodatrs ul.egmenu li ul {
+	padding-left: 0;
+	padding-right: 22px;
+}

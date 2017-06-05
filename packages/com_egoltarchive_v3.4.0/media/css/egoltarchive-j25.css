@@ -1,0 +1,29 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+
+.egoltarchive .finc{
+	margin-top: 10px !important;
+	height: 38px !important;
+}
+.egoltarchive .tablet .finc{
+	margin-top: 0px !important;
+	height: 48px !important;
+}
+.egoltarchive .submit {
+	margin-top: 16px;
+}
+.egoltarchive .checkexactlabel {
+	line-height: 25px !important;
+}
+.egoltarchive .checkexact {
+	margin-top: 7px !important;
+}

@@ -1,0 +1,71 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+
+.egoltarchive {
+	font-size: 13px;
+}
+.egoltarchive form,
+.egoltarchive input,
+.egoltarchive select,
+.egoltarchive ul,
+.egoltarchive li {
+	margin: 0 !important;
+}
+.egoltarchive .grid, .egoltarchive .pagingblock ul li {
+	display: inline;
+	float: left;
+}
+.egoltarchive .grid.spc {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.egoltarchive .clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.egoltarchive p {
+	margin: 0 !important;
+}
+.egoltarchive  select {
+	width: 100% !important;
+	font-family: Tahoma, Arial;
+	padding: 3px;
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+}
+.egoltarchive a.nodecor {
+	text-decoration: none !important;
+}
+.egoltarchive a.nodecor:hover {
+	background-color: transparent;
+}
+.egoltarchive .egheading {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px 0;
+}
+.egoltarchive .noresult {
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 15px;
+	background-color: #efefef;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}

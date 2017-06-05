@@ -1,0 +1,45 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+
+.egoltarchive .pg-body {
+	padding: 3px;
+	margin-bottom: 3px;
+}
+.egoltarchive .pg-row {
+	text-align: center;
+	overflow: hidden;
+	font-size: 10px;
+}
+.egoltarchive .pg-row:hover,
+.egoltarchive .pg-row:focus {
+	-webkit-box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: -1px 1px 20px rgba(0,0,0,0.2);
+	box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.2);
+}
+.egoltarchive .pg-img {
+	margin: 10px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.egoltarchive .pg-link,
+.egoltarchive .pg-link:hover {
+	text-decoration: none !important;
+	background-color: transparent !important;
+}
+.egoltarchive .pg-link {
+	color: #095197 !important;
+}
+.egoltarchive .pg-link:hover {
+	color: orange !important;
+}

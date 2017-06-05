@@ -1,0 +1,50 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+
+.egoltarchive .pagingblock {
+	border-color: #A64538;
+}
+.egoltarchive .pagingblock ul li{
+	background-color: #FFB7AD;
+	border-color: #A64538;
+	color: #555;
+}
+.egoltarchive .pagingblock ul li.disabled,
+.egoltarchive .pagingblock ul li.active
+{
+	background-color: #FFD7D2;
+}
+.egoltarchive .pagingblock ul li.disabled a,
+.egoltarchive .pagingblock ul li.disabled a:hover,
+.egoltarchive .pagingblock ul li.active a ,
+.egoltarchive .pagingblock ul li.active a:hover {
+	color: #555 !important;
+}
+.egoltarchive .pagingblock ul li:hover {
+	background-color: #FFC9C2;
+}
+.egoltarchive .pagingblock ul li a{
+	color: #333 !important
+}
+.egoltarchive .pagingblock ul li a:hover{
+	color: #000 !important;
+	background-color: transparent !important;
+}
+.egoltarchive .pagecounter {
+	color: #A64538;
+}
+.egoltarchive .pagingblock ul li.pagination-start a,
+.egoltarchive .pagingblock ul li.pagination-prev a,
+.egoltarchive .pagingblock ul li.pagination-next a,
+.egoltarchive .pagingblock ul li.pagination-end a{
+	color: #000 !important;
+}

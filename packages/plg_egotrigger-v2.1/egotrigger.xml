@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" version="3.0" method="upgrade">
+	<name>Egolt Framework - Trigger Plugin</name>
+	<creationDate>May 2014</creationDate>
+	<author>Egolt</author>
+	<authorEmail>info@egolt.com</authorEmail>
+	<authorUrl>http://www.egolt.com</authorUrl>
+	<copyright>Copyright (c) Egolt. All rights reserved</copyright>
+	<license>GNU GPL v2.0 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>2.0</version>
+	<description>It's part of Egolt Framework, you must have it enabled for using Egolt Framework</description>
+	<files>
+		<filename plugin="egotrigger">egotrigger.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>

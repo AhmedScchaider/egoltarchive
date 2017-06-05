@@ -1,0 +1,73 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+ 
+.egoltarchive .search-body {
+	background-color: #ffffff;
+	border-color: #d3e9bd;
+}
+.egoltarchive .dsheader {
+	border-color: #d3e9bd;
+}
+.egoltarchive .dsheader:hover {
+	background-color: rgb(224, 239, 208);
+}
+.egoltarchive .dsheader-1 {
+	background-color: #ecf6e3;
+}
+.egoltarchive .dsheader-2 {
+	background-color: #ecf6e3;
+}
+.egoltarchive .dsheader-3 {
+	background-color: #ecf6e3;
+}
+.egoltarchive div .categorys {
+	background-color: #ecf6e3;
+	border-color: #d3e9bd;
+}
+.egoltarchive div .like {
+	background-color: #ecf6e3;
+	border-color: #d3e9bd;
+}
+.egoltarchive div .notlike {
+	background-color: #ecf6e3;
+	border-color: #d3e9bd;
+}
+.egoltarchive  .showsbutton{
+	background-color: #ecf6e3;
+}
+.egoltarchive  .all_button {
+	background-color: #ffffff;
+	border-color: #d3e9bd;
+}
+.egoltarchive .aainput {
+	border-color: #d3e9bd;
+}
+.egoltarchive .aasubmit {
+	background-color: #ffffff;
+	border-color: #d3e9bd;
+}
+.egoltarchive .aasubmit:hover,
+.egoltarchive .all_button:hover
+{
+	background-color: #ecf6e3;
+}
+.egoltarchive div.authors {
+	background-color: #ecf6e3;
+	border-color: #d3e9bd;
+}
+.egoltarchive div.sort {
+	background-color: #ecf6e3;
+	border-color: #d3e9bd;
+}
+.egoltarchive .dsblock {
+	background-color: #ecf6e3;
+}

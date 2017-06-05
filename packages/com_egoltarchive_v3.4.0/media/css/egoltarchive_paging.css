@@ -1,0 +1,78 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+
+.egoltarchive  .pagingblock .pagenav {
+	padding: 0;
+}
+.egoltarchive  .pagingblock a {
+	text-decoration: none !important;
+}
+.egoltarchive .pagingblock a:hover {
+	background-color: transparent;
+}
+.egoltarchive .pagingblock {
+	border: 1px solid #efefef;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;	
+	margin-bottom: 15px;
+	padding: 10px;
+}
+.egoltarchive .pagingblock ul li{
+	margin-right: 4px !important;
+	margin-left: 4px !important;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 3px !important;
+	color: #999;
+}
+.egoltarchive .pagingblock ul li.disabled a,
+.egoltarchive .pagingblock ul li.disabled a:hover,
+.egoltarchive .pagingblock ul li.active a ,
+.egoltarchive .pagingblock ul li.active a:hover {
+		color: #999 !important;
+}
+.egoltarchive .pagingblock ul li:hover {
+	background-color: #ddd;
+	cursor: default;
+}
+.egoltarchive .pagingblock ul li a{
+	text-decoration: none !important;
+	color: #000 !important;
+	padding: 2px !important;
+}
+.egoltarchive .pagingblock ul li span {
+	padding: 2px !important;
+}
+.egoltarchive .pagingblock ul li a:hover{
+	color: #333 !important;
+	background-color: transparent !important;
+}
+.egoltarchive .pagecounter {
+	margin-right: 4px;
+	color: #777;
+	float: right;
+	height: 26px;
+	line-height: 26px;
+}
+.egoltarchive .pagecounter.phone {
+	display: none;
+}
+.egoltarchive .pagingblock ul li.pagination-start a,
+.egoltarchive .pagingblock ul li.pagination-prev a,
+.egoltarchive .pagingblock ul li.pagination-next a,
+.egoltarchive .pagingblock ul li.pagination-end a{
+	color: #000 !important;
+}

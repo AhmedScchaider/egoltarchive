@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" client="site" version="3.0" method="upgrade">
+    <name>Egolt Archive - Search Module</name>
+	<creationDate>May 2014</creationDate>
+	<author>Egolt</author>
+	<authorEmail>info@egolt.com</authorEmail>
+	<authorUrl>http://www.egolt.com</authorUrl>
+	<copyright>Copyright (c) Egolt. All rights reserved</copyright>
+	<license>GNU GPL v2.0 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>2.0.3</version>
+    <description>MOD_EGOLTARCHIVE_SEARCH_XML_DESCRIPTION</description>
+	<media destination="mod_egoltarchive_search" folder="media">
+		<filename>index.html</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</media>
+    <files>
+        <filename module="mod_egoltarchive_search">mod_egoltarchive_search.php</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+    </files>
+    <languages folder="languages">
+		<language tag="en-GB">en-GB.mod_egoltarchive_search.ini</language>
+		<language tag="en-GB">en-GB.mod_egoltarchive_search.sys.ini</language>
+		<language tag="fa-IR">fa-IR.mod_egoltarchive_search.ini</language>
+		<language tag="fa-IR">fa-IR.mod_egoltarchive_search.sys.ini</language>
+		<language tag="it-IT">it-IT.mod_egoltarchive_search.ini</language>
+		<language tag="it-IT">it-IT.mod_egoltarchive_search.sys.ini</language>
+		<language tag="nl-NL">nl-NL.mod_egoltarchive_search.ini</language>
+		<language tag="nl-NL">nl-NL.mod_egoltarchive_search.sys.ini</language>
+		<language tag="ru-RU">ru-RU.mod_egoltarchive_search.ini</language>
+		<language tag="ru-RU">ru-RU.mod_egoltarchive_search.sys.ini</language>
+    </languages>
+    <config>
+        <fields 
+			name="params"
+		>
+		
+            <fieldset 
+				name="basic"
+			>
+                <field 
+					name="egmenu" 
+					type="egomenu" 
+					like="index.php?option=com_egoltarchive"
+					label="MOD_EGOLTARCHIVE_SEARCH_EGOLTARCHIVE_MENU" 
+					description="MOD_EGOLTARCHIVE_SEARCH_EGOLTARCHIVE_MENU_DESC"
+					required="true" 
+				/>
+				<field 
+					name="eghidesearch" 
+					type="list" 
+					default="0" 
+					label="MOD_EGOLTARCHIVE_SEARCH_OPTIONAL_HIDE_SEARCHBOX" 
+					description="MOD_EGOLTARCHIVE_SEARCH_OPTIONAL_HIDE_SEARCHBOX_DESC" 
+				>
+					<option value="1">EGO_YES</option>
+					<option value="0">EGO_NO</option>
+				</field>
+            </fieldset>
+			
+            <fieldset 
+				name="advanced"
+			>
+				<field 
+					name="moduleclass_sfx" 
+					type="text"
+					label="EGO_MODULECLASS_SFX"
+					description="EGO_MODULECLASS_SFX_DESC" 
+				/>
+				<field 
+					name="owncache" 
+					type="list" 
+					default="1"
+					label="EGO_CACHING" 
+					description="EGO_CACHING_DESC" 
+				>
+					<option value="1">EGO_USE_GLOBAL</option>
+					<option value="0">EGO_NOCACHING</option>
+				</field>
+				<field 
+					name="cache_time" 
+					type="text" 
+					default="900"
+					label="EGO_CACHE_TIME" 
+					description="EGO_CACHE_TIME_DESC" 
+				/>
+			</fieldset>
+			
+        </fields>
+    </config>
+</extension>

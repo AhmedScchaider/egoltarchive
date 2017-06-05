@@ -1,0 +1,185 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+ 
+.egoltarchive .search-body {
+	background-color: #eeeeee;
+	border: 1px solid #b3afaf;
+	padding: 10px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+.egoltarchive .categorys,
+.egoltarchive .authors,
+.egoltarchive .sort,
+.egoltarchive .like,
+.egoltarchive .notlike {
+	height: 48px;
+	line-height: 48px;
+	padding-left: 35px;
+	border: 1px solid #eaeaea;
+	margin: 5px;
+	color: #777;
+}
+.egoltarchive .categorys.tablet,
+.egoltarchive .authors.tablet,
+.egoltarchive .sort.tablet,
+.egoltarchive .like.tablet,
+.egoltarchive .notlike.tablet {
+	min-height: 56px;
+	line-height: 24px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.egoltarchive  .duration,
+.egoltarchive .startdate,
+.egoltarchive .enddate {
+	padding: 10px;
+	margin: 5px;
+	color: #777;
+}
+.egoltarchive .dsheader {
+	background-position: 1% center;
+	background-repeat: no-repeat;
+	padding: 9px 5px 6px 40px;
+	color: #777;
+	border-bottom: 4px solid #ddd;
+}
+.egoltarchive .dsheader:hover {
+	cursor: pointer;
+	background-color: #ddd;
+}
+.egoltarchive .dsheader-1 {
+	background-image: url(../images/date.png);
+}
+.egoltarchive .dsheader-2 {
+	background-image: url(../images/duration.png);
+}
+.egoltarchive .dsheader-3 {
+	background-image: url(../images/betdate.png);
+}
+.egoltarchive div .categorys {
+	background: #f1f0f0 url(../images/category.png) 1% 50% no-repeat;
+	border: 1px solid #dadada;
+}
+.egoltarchive div .like {
+	background: #f1f0f0 url(../images/like.png) 1% 50% no-repeat;
+	border: 1px solid #dadada;
+}
+.egoltarchive div .notlike {
+	background: #f1f0f0 url(../images/notlike.png) 1% 50% no-repeat;
+	border: 1px solid #dadada;
+}
+.egoltarchive  .showsbutton{
+	font-family: Tahoma, Arial;
+	width: 200px;
+	background-color: #f1f0f0;
+	border: 1px solid #dadada;
+	height: 22px;
+	text-align: center;
+	color: #000;
+	line-height: 22px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+.egoltarchive .showsbutton:hover {
+	cursor: pointer;
+	background-color:#fff;
+}
+.egoltarchive  .all_button {
+	font-family: Tahoma, Arial;
+	width: 100px;
+	background-color: #f1f0f0;
+	border: 1px solid #dadada;
+	height: 22px;
+	text-align: center;
+	color: #000;
+	line-height: 22px;
+}
+.egoltarchive .aainput {
+	width: 200px;
+	font-family: Tahoma, Arial;
+	padding: 3px;
+	margin-top: -3px;
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+}
+.egoltarchive .aainput.phone {
+	width: 90%;
+}
+.egoltarchive .aasubmit {
+	font-family: Tahoma, Arial;
+	background-color: #f1f0f0;
+	border: 1px solid #dadada;
+	padding-bottom: 2px;
+	width: 100px;
+	height: 24px;
+	cursor: pointer;
+}
+.egoltarchive .aasubmit:hover,
+.egoltarchive .all_button:hover
+{
+	background-color:#fff;
+}
+.egoltarchive .dselect.phone {
+	width: 95% !important;
+	margin-bottom: 2px;
+}
+.egoltarchive .datelabel {
+	width: 90px;
+}
+.egoltarchive div.authors {
+	background: #f1f0f0 url(../images/authors_icon.png) 1% 50% no-repeat;
+	border: 1px solid #dadada;
+}
+.egoltarchive div.sort {
+	background: #f1f0f0 url(../images/sort_icon.png) 1% 50% no-repeat;
+	border: 1px solid #dadada;
+}
+.egoltarchive .dsblock {
+	background-color: #f5f4f4;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-top: -5px;
+	display: none;
+}
+.egoltarchive .flabel {
+	width: 90px;
+}
+.egoltarchive .flabel.tablet {
+	width: 100%;
+}
+.egoltarchive .checkexact {
+	margin-right: 3px;
+	margin-left: 10px;
+}
+.egoltarchive .checkexactlabel {
+	margin-top:1px;
+}
+.egoltarchive .checkexact.phone,
+.egoltarchive .checkexactlabel.phone {
+	display: none;
+}
+.egoltarchive .betdatelabel {
+	width: 65px;
+	margin-top: 6px;
+}
+.egoltarchive .betdatelabel.phone {
+	width: 100%;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}

@@ -1,0 +1,120 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+
+@media (min-width: 768px) {
+	.egoltarchive-admin .aboutcl {
+		margin-top: 140px;
+	}
+}
+@media (min-width: 768px) and (max-width: 887px) {
+	.egoltarchive-admin .aboutcl {
+		margin-left: 0 !important;
+		padding-left: 15px !important;
+	}
+	.egoltarchive-admin .egpanelcover {
+		margin-left: 0 !important;
+		padding-left: 15px !important;
+	}	
+}
+@media (max-width: 767px) {
+	.egoltarchive-admin .egicon {
+		margin-top: 10px;
+	}
+	.egoltarchive-admin .inner-content div {
+		width: 100%;
+	}
+	.egoltarchive-admin .egpanel h3 {
+		margin-top: 25px;
+		margin-bottom: -10px;
+	}
+}
+.startmsg a {
+	text-decoration: none !important;
+}
+.egoltarchive-admin .egicon {
+	float: left;
+	margin-right: 10px;
+	width: 128px;
+	height: 128px;
+	border: 1px solid #eee;
+	text-align: center;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: inset 0 0 40px #ddd;
+	-webkit-box-shadow: inset 0 0 40px #ddd;
+	box-shadow: inset 0 0 40px #ddd;
+}
+.egoltarchive-admin .egicon:hover {
+	box-shadow: inset 0 0 70px #ddd;
+}
+.egoltarchive-admin .egicon a {
+	text-decoration: none !important;
+	display: block;
+	padding: 22px 5px;
+	font-size: 15px;
+	color: #005580;
+}
+.egoltarchive-admin .egicon a:hover {
+	color: #08c;
+}
+.egoltarchive-admin .inner-about div {
+	background-position: 98% center;
+	background-repeat: no-repeat;
+	padding: 10px;
+	padding-right: 40px;
+	border: 1px solid #eaeaea;
+	margin: 5px;
+	color: #777;
+}
+.egoltarchive-admin .adownload { 
+	background-image: url(../images/icon-download.png);
+}
+.egoltarchive-admin .adocumentation{
+	background-image: url(../images/icon-documentation.png);
+}
+.egoltarchive-admin .ademo {
+	background-image: url(../images/icon-demo.png);
+}
+.egoltarchive-admin .alicense{
+	background-image: url(../images/icon-license.png);
+}
+.egoltarchive-admin .abuypro{
+	background-image: url(../images/buypro.gif);
+}
+.egoltarchive-admin .asupport{
+	background-image: url(../images/support.gif);
+}
+.egoltarchive-admin .aforum{
+	background-image: url(../images/forum.png);
+}
+.egoltarchive-admin .aversion { 
+	background-image: url(../images/icon-version.png);
+}
+.egoltarchive-admin .aboutp {
+	text-align: justify;
+	direction: ltr;
+	padding: 5px;
+	line-height: 20px;
+}
+.startmsg {
+	font-size: 13px;
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 20px;
+	color: #c09853;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}

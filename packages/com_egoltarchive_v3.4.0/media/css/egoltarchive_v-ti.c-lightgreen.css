@@ -1,0 +1,22 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+ 
+.egoltarchive .ti-row {
+	background-color: #f9fcf6;
+	border-color: #d3e9bd;
+}
+.egoltarchive #ti-top {
+	background-color:#e0efd0;
+}
+.egoltarchive #ti-middle {
+	background: #ecf6e3;
+}

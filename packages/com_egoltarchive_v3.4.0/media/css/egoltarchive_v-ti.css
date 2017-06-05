@@ -1,0 +1,107 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+ 
+.egoltarchive .ti-row {
+	min-height: 100px;
+	background: #f7f7f7 url(../images/row.png) repeat-x right top;
+	border: 1px solid #b3afaf;
+	margin-bottom: 10px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+.egoltarchive #ti-img {
+	margin: 0px 10px 0px 10px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.egoltarchive #ti-img.phone {
+	width: 100%;
+	clear: both;
+	margin: 0 0 8px 0;
+}
+.egoltarchive #ti-title a,
+.egoltarchive #ti-title a:visited {
+	text-decoration: none;
+	color: #000;
+}
+.egoltarchive #ti-title a:hover,
+.egoltarchive #ti-title a:active {
+	background-color: transparent;
+	text-decoration: none;
+	color: #f0701a;
+}
+.egoltarchive .ti-head{
+	color: #999;
+	padding-right: 5px;
+}
+.egoltarchive #ti-title {
+	font-size: 13px;
+}
+.egoltarchive #ti-top {
+	height: 30px;
+	line-height: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.egoltarchive #ti-bottom p {
+	text-align: justify;
+}
+.egoltarchive #ti-middle {
+	min-height: 20px;
+	line-height: 20px;
+	background: #f3f1f1;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.egoltarchive #ti-middle .grid {
+	font-size: 11px;
+}
+.egoltarchive #ti-middle .grid > span {
+	margin-left: 21px;
+}
+.egoltarchive #ti-middle.tablet .grid {
+	width: 100%;
+	margin: 0;
+	border-bottom: 1px solid #dedede;
+}
+.egoltarchive #ti-created {
+	background: transparent url(../images/datec.png) left center no-repeat;
+	min-width: 100px;
+}
+.egoltarchive #ti-cat {
+	background: transparent url(../images/category_icon.gif) left center no-repeat;
+	margin-left: 20px;
+	min-width: 120px;
+}
+.egoltarchive #ti-author {
+	background: transparent url(../images/author_icon.gif) left center no-repeat;
+	margin-left: 20px;
+	min-width: 120px;
+}
+.egoltarchive #ti-hits {
+	background: transparent url(../images/hits.png) left center no-repeat;
+	margin-left: 20px;
+	min-width: 60px;
+}
+.egoltarchive #ti-comments {
+	background: transparent url(../images/comments.png) left center no-repeat;
+	margin-left: 20px;
+	min-width: 60px;
+}
+.egoltarchive #ti-bottom {
+	padding: 7px 3px;
+	padding-right: 10px;
+	padding-left: 10px;
+}

@@ -1,0 +1,78 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+ 
+.egarmoddate a, 
+.egarmoddate a:hover,
+.egarmoddate a:focus {
+	text-decoration: none !important;
+}
+.egarmoddate a {
+	color: #000 !important;
+}
+.egarmoddate a:hover,
+.egarmoddate a:focus {
+	background-color: transparent !important;
+	color: blue !important;
+}
+.egarmoddate ul {
+	list-style-type: none;
+}
+.egarmoddate ul.egmenu {
+	margin: 0px !important;
+	border: solid 0px #eee;
+}
+.egarmoddate ul.egmenu > li.egyear {
+	background-image: url(../images/date.png);
+	background-repeat: no-repeat;
+	background-position: 2px center;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 22px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ddd;
+	font-size: 16px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.egarmoddate ul.egmenu > li.egyear a {
+	width: 100%;
+	display: block;
+}
+.egarmoddate ul.egmenu > li.egyear:hover,
+.egarmoddate ul.egmenu > li.egyear.selected {
+	background-color: #eee;
+}
+.egarmoddate ul.egmenu li ul {
+	margin: 0;
+	padding-left: 22px;
+	padding-bottom: 15px;
+}
+.egarmoddate ul.egmenu li ul li.egmonth {
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 2px;
+}
+.egarmoddate ul.egmenu li ul li.egmonth a {
+	display: block;
+	width: 100%;
+}
+.egarmoddate ul.egmenu li ul li.egmonth:hover,
+.egarmoddate ul.egmenu li ul li.egmonth.selected{
+	background-color: #ddd !important;
+}

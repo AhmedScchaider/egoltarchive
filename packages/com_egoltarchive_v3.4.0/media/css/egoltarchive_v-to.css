@@ -1,0 +1,63 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+
+.egoltarchive .to-body {
+	padding:5px;
+}
+.egoltarchive ul#to-info {
+	margin-top: 5px !important;
+}
+.egoltarchive #to-info.tablet li {
+	width: 100%;
+	margin: 0;
+}
+.egoltarchive ul#to-info li {
+	margin-right: 20px !important;
+	font-size: 11px;
+	padding-left: 21px;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.egoltarchive .to-row {
+	margin-bottom: 30px;
+	padding-bottom: 5px;
+}
+.egoltarchive #to-top {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}
+.egoltarchive #to-title {
+	font-size: 15px;
+}
+.egoltarchive #to-title a{
+	text-decoration: none !important; 
+}
+.egoltarchive #to-created {
+	background-image: url(../images/datec.png);
+	min-width: 70px;
+}
+.egoltarchive #to-cat {
+	background-image: url(../images/category_icon.gif);
+	min-width: 110px;
+}
+.egoltarchive #to-author {
+	background-image: url(../images/author_icon.gif);
+	min-width: 105px;
+}
+.egoltarchive #to-hits {
+	background-image: url(../images/hits.png);
+	min-width: 40px;
+}
+.egoltarchive #to-comments {
+	background-image: url(../images/comments.png);
+	min-width: 40px;
+}

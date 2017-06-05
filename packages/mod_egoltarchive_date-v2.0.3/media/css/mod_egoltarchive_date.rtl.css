@@ -1,0 +1,28 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+ 
+.egarmoddate, .egarmoddate input, .egarmoddate select {
+	font-family: Tahoma, Arial;
+}
+.egarmoddate ul.egmenu > li.egyear {
+	background-position: 99% center;
+	padding-left: 0;
+	padding-right: 22px;
+}
+.egarmoddate ul.egmenu li ul {
+	padding-left: 0;
+	padding-right: 22px;
+}
+.egarmoddate ul.egmenu li ul li.egmonth {
+	padding-left: 0;
+	padding-right: 5px;
+}

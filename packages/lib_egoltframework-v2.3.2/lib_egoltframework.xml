@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="library" version="3.0" method="upgrade">
+    <name>Egolt Framework</name>
+	<libraryname>ego</libraryname>
+	<description>Egolt Framework - The Engine of Egolt Products</description>
+	<creationDate>August 2015</creationDate>
+	<author>Egolt</author>
+	<authorEmail>info@egolt.com</authorEmail>
+	<authorUrl>http://www.egolt.com</authorUrl>
+	<copyright>Copyright (c) Egolt. All rights reserved</copyright>
+	<license>GNU GPL v2.0 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>2.3.2</version>
+	<packager>Egolt</packager>
+	<packagerurl>http://www.egolt.com</packagerurl>
+	<files folder="egoltframework">
+		<file>date.php</file>
+		<file>image.php</file>
+		<file>include.php</file>
+		<file>index.html</file>
+		<file>source.php</file>
+		<file>text.php</file>
+		<folder>_thumbs</folder>
+		<folder>date</folder>
+		<folder>form</folder>
+		<folder>html</folder>
+		<folder>source</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">languages_inifiles/en-GB.lib_egoltframework.ini</language>
+		<language tag="fa-IR">languages_inifiles/fa-IR.lib_egoltframework.ini</language>
+		<language tag="it-IT">languages_inifiles/it-IT.lib_egoltframework.ini</language>
+		<language tag="nl-NL">languages_inifiles/nl-NL.lib_egoltframework.ini</language>
+		<language tag="ru-RU">languages_inifiles/ru-RU.lib_egoltframework.ini</language>
+   	</languages>
+</extension>

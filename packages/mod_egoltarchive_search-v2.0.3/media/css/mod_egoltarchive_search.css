@@ -1,0 +1,34 @@
+/**
+ * @package   	Egolt Archive
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Archive
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltarchive
+ */
+ 
+.egarmodsearch .aainput {
+	font-family: Tahoma, Arial;
+	background-color: #f7f7f7;
+	padding: 3px;
+	width: 200px;
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+}
+.egarmodsearch .aasubmit {
+	font-family: Tahoma, Arial;
+	background-color: #f1f0f0;
+	border: 1px solid #dadada;
+	padding-bottom: 2px;
+	width: 100px;
+	height: 24px;
+	cursor: pointer;
+}
+.egarmodsearch .aasubmit:hover,
+.egarmodsearch .aasubmit:focus,
+.egarmodsearch .aainput:focus {
+	background-color:#fff;
+}

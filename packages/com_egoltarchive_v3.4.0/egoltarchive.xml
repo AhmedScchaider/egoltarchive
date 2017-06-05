@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>egoltarchive</name>
+	<creationDate>November 2014</creationDate>
+	<author>Egolt</author>
+	<authorEmail>info@egolt.com</authorEmail>
+	<authorUrl>http://www.egolt.com</authorUrl>
+	<copyright>Copyright (c) Egolt. All rights reserved</copyright>
+	<license>GNU GPL v2.0 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>3.4.0</version>
+	<description>Egolt Archive Component</description>
+	<media destination="egoltarchive" folder="media">
+		<filename>index.html</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</media>
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>egoltarchive.php</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">languages/site/en-GB.com_egoltarchive.ini</language>
+		<language tag="fa-IR">languages/site/fa-IR.com_egoltarchive.ini</language>
+		<language tag="it-IT">languages/site/it-IT.com_egoltarchive.ini</language>
+		<language tag="nl-NL">languages/site/nl-NL.com_egoltarchive.ini</language>
+		<language tag="ru-RU">languages/site/ru-RU.com_egoltarchive.ini</language>
+	</languages>
+	<administration>
+		<menu link="option=com_egoltarchive" img="../media/egoltarchive/images/egoltarchive_ico.png">com_egoltarchive</menu>
+		<submenu>
+			<menu img="../media/egoltarchive/images/panel_ico.png" link="option=com_egoltarchive">control_panel</menu>
+			<menu img="../media/egoltarchive/images/about_ico.png" link="option=com_egoltarchive&amp;task=about">about_product</menu>
+		</submenu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>egoltarchive.php</filename>
+			<filename>ajaxcats.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<folder>helpers</folder>
+			<folder>views</folder>
+		</files>
+		<languages>
+			<language tag="en-GB">languages/admin/en-GB.com_egoltarchive.ini</language>
+			<language tag="en-GB">languages/admin/en-GB.com_egoltarchive.sys.ini</language>
+			<language tag="fa-IR">languages/admin/fa-IR.com_egoltarchive.ini</language>
+			<language tag="fa-IR">languages/admin/fa-IR.com_egoltarchive.sys.ini</language>
+			<language tag="it-IT">languages/admin/it-IT.com_egoltarchive.ini</language>
+			<language tag="it-IT">languages/admin/it-IT.com_egoltarchive.sys.ini</language>
+			<language tag="nl-NL">languages/admin/nl-NL.com_egoltarchive.ini</language>
+			<language tag="nl-NL">languages/admin/nl-NL.com_egoltarchive.sys.ini</language>
+			<language tag="ru-RU">languages/admin/ru-RU.com_egoltarchive.ini</language>
+			<language tag="ru-RU">languages/admin/ru-RU.com_egoltarchive.sys.ini</language>
+		</languages>
+	</administration>
+	<scriptfile>script.php</scriptfile>
+</extension>

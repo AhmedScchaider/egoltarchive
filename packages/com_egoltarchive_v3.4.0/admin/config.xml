@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+		<fieldset 
+			name="advanced" 
+			label="COM_EGOLTARCHIVE_BASIC_SETTING"
+		>
+			<field 
+				name="theme_color" 
+				type="list" 
+				default="-1" 
+				label="COM_EGOLTARCHIVE_THEME_COLOR" 
+				description="COM_EGOLTARCHIVE_THEME_COLOR_DESC"
+			>
+				<option value="-1">COM_EGOLTARCHIVE_DEFAULT</option>
+				<option value="black">COM_EGOLTARCHIVE_BLACK</option>
+				<option value="blue">COM_EGOLTARCHIVE_BLUE</option>
+				<option value="red">COM_EGOLTARCHIVE_RED</option>
+			</field>
+			<field 
+				name="responsive" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_RESPONSIVE_LAYOUT" 
+				description="COM_EGOLTARCHIVE_RESPONSIVE_LAYOUT_DESC"
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+		</fieldset>
+		<fieldset 
+			name="archivesource" 
+			label="COM_EGOLTARCHIVE_ARCHIVE_GENERAL_SETTINGS"
+		>
+			<field 
+				name="cat_inc_subs" 
+				type="list" 
+				default="9999" 
+				label="COM_EGOLTARCHIVE_INC_SUBCATS" 
+				description="COM_EGOLTARCHIVE_INC_SUBCATS_DESC"
+			>
+				<option value="9999">COM_EGOLTARCHIVE_ALL</option>
+				<option value="-10">COM_EGOLTARCHIVE_NONE</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</field>
+			<field 
+				name="default_order" 
+				type="list" 
+				default="newer_first" 
+				label="COM_EGOLTARCHIVE_ORDERING_DEFAULT" 
+				description="COM_EGOLTARCHIVE_ORDERING_DEFAULT_DESC"
+			>
+				<option value="newer_first">EGO_NEWER_FIRST</option>
+				<option value="older_first">EGO_OLDER_FIRST</option>
+				<option value="date_desc">EGO_DATE_DESC</option>
+				<option value="date_asc">EGO_DATE_ASC</option>
+				<option value="alpha_desc">EGO_ALPHA_DESC</option>
+				<option value="alpha_asc">EGO_ALPHA_ASC</option>
+			</field>
+			<field 
+				name="date_showtype" 
+				type="list" 
+				default="exactdate" 
+				label="COM_EGOLTARCHIVE_DATE_DISPLAY_TYPE" 
+				description="COM_EGOLTARCHIVE_DATE_DISPLAY_TYPE_DESC" 
+			>
+				<option value="exactdate">COM_EGOLTARCHIVE_EXACTDATE</option>
+				<option value="period">COM_EGOLTARCHIVE_DURPERIOD</option>
+			</field>
+			<field 
+				name="index_number" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_INDEX_NUMBER" 
+				description="COM_EGOLTARCHIVE_INDEX_NUMBER_DESC"
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="readmore" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_READMORE_LINK"
+				description="COM_EGOLTARCHIVE_READMORE_LINK_DESC"
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field
+				type="spacer" 
+				label="COM_EGOLTARCHIVE_DEATAIL_INFO_IN_ITEMS" 
+				class="egspacer"
+			/>
+			<field 
+				name="showinfo" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_DISPLAY_ALL_INFO" 
+				description="COM_EGOLTARCHIVE_DISPLAY_ALL_INFO_DESC"
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="info_date" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_DISPLAY_DATE" 
+				description="COM_EGOLTARCHIVE_DISPLAY_DATE_DESC" 
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="info_cat" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_DISPLAY_CATEGORY" 
+				description="COM_EGOLTARCHIVE_DISPLAY_CATEGORY_DESC" 
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="info_catlink" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_DISPLAY_CATLINK" 
+				description="COM_EGOLTARCHIVE_DISPLAY_CATLINK_DESC" 
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="info_author" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_DISPLAY_AUTHOR" 
+				description="COM_EGOLTARCHIVE_DISPLAY_AUTHOR_DESC" 
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="info_hits" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_DISPLAY_HITS" 
+				description="COM_EGOLTARCHIVE_DISPLAY_HITS_DESC"
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field
+				type="spacer" 
+				label="COM_EGOLTARCHIVE_TEXT_SETTINGS" 
+				class="egspacer"
+			/>
+			<field 
+				name="archive_tags" 
+				type="text" 
+				default="" 
+				label="COM_EGOLTARCHIVE_ARCHIVE_TAGS" 
+				description="COM_EGOLTARCHIVE_ARCHIVE_TAGS_DESC" 
+			/>
+			<field
+				type="spacer" 
+				label="COM_EGOLTARCHIVE_ARTICLE_THUMB_SETTING" 
+				class="egspacer"
+			/>
+			<field 
+				name="display_thumb" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_DISPLAY_THUMB" 
+				description="" 
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="thumb_engine" 
+				type="list" 
+				default="phpthumb" 
+				label="COM_EGOLTARCHIVE_THUMB_ENGINE" 
+				description="COM_EGOLTARCHIVE_THUMB_ENGINE_DESC" 
+			>
+				<option value="off">COM_EGOLTARCHIVE_OFF</option>
+				<option value="joomla">EGO_JOOMLA</option>
+				<option value="phpthumb">PhpThumb</option>
+			</field>
+			<field 
+				name="thumb_type" 
+				type="list" 
+				default="crop" 
+				label="COM_EGOLTARCHIVE_THUMB_TYPE" 
+				description="COM_EGOLTARCHIVE_THUMB_TYPE_DESC" 
+			>
+				<option value="crop">COM_EGOLTARCHIVE_CROP</option>
+				<option value="resize">COM_EGOLTARCHIVE_RESIZE</option>
+			</field>
+			<field 
+				name="forceresizedef" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_FORCERESIZEDEF" 
+				description="COM_EGOLTARCHIVE_FORCERESIZEDEF_DESC" 
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>			
+			<field 
+				name="thumb_width" 
+				type="text" 
+				default="" 
+				label="COM_EGOLTARCHIVE_THUMB_WIDTH" 
+				description="COM_EGOLTARCHIVE_IN_PIXEL" 
+			/>		
+			<field 
+				name="thumb_height"
+				type="text" 
+				default="" 
+				label="COM_EGOLTARCHIVE_THUMB_HEIGHT" 
+				description="COM_EGOLTARCHIVE_IN_PIXEL" 
+			/>	
+			<field 
+				name="cropx"
+				type="text" 
+				default="" 
+				label="COM_EGOLTARCHIVE_CROPX" 
+				description="" 
+			/>	
+			<field 
+				name="cropy"
+				type="text" 
+				default="" 
+				label="COM_EGOLTARCHIVE_CROPY" 
+				description="" 
+			/>	
+			<field
+				type="spacer" 
+				label="COM_EGOLTARCHIVE_LINK_TARGET" 
+				class="egspacer"
+			/>
+			<field 
+				name="archive_item_target" 
+				type="list" 
+				default="same" 
+				label="COM_EGOLTARCHIVE_ARCHIVE_ITEMS_LINK" 
+				description="COM_EGOLTARCHIVE_LINK_TARGET_DESC"
+			>
+				<option value="same">COM_EGOLTARCHIVE_SAME_WINDOW</option>
+				<option value="new">COM_EGOLTARCHIVE_NEW_WINDOW</option>
+			</field>
+			<field 
+				name="archive_cat_target" 
+				type="list" 
+				default="new" 
+				label="COM_EGOLTARCHIVE_CATEOGORY_LINK" 
+				description="COM_EGOLTARCHIVE_LINK_TARGET_DESC"
+			>
+				<option value="same">COM_EGOLTARCHIVE_SAME_WINDOW</option>
+				<option value="new">COM_EGOLTARCHIVE_NEW_WINDOW</option>
+			</field>
+		</fieldset>
+		
+		<fieldset 
+			name="fd_setting"
+			label="COM_EGOLTARCHIVE_FDVIEW_SETTINGS"
+		>
+			<field 
+				name="feed_type" 
+				type="list" 
+				default="rss" 
+				label="COM_EGOLTARCHIVE_FEED_TYPE" 
+				description=""
+			>
+				<option value="rss">RSS</option>
+				<option value="atom">Atom</option>
+			</field>
+		</fieldset>
+			
+		<fieldset 
+			name="searchbox" 
+			label="COM_EGOLTARCHIVE_SEARCHBOX_SETTINGS"
+		>
+			<field 
+				name="display_searchbox" 
+					type="list" 
+					default="1" 
+					label="COM_EGOLTARCHIVE_DISPLAY_SEARCHBOX" 
+					description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="autohidesearch" 
+					type="list" 
+					default="1" 
+					label="COM_EGOLTARCHIVE_AUTHOHIDE_SEARCHBOX" 
+					description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="datesearch" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_DATESEARCH" 
+				description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="display_ordering" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_DISPLAY_ORDERING" 
+				description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="auto_dateselect" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_AUTODATE" 
+				description="COM_EGOLTARCHIVE_AUTODATE_DESC"
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field
+				type="spacer" 
+				label="COM_EGOLTARCHIVE_CATEGORY_SEARCH_SETTING" 
+				class="egspacer"
+			/>
+			<field 
+				name="categorysearch" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_CATEGORY_SEARCH" 
+				description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="category_use_allcat" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_ALL_CATEGORY_OPTION" 
+				description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field
+				type="spacer" 
+				label="COM_EGOLTARCHIVE_AUTHORS_SEARCH_SETTING" 
+				class="egspacer"
+			/>
+			<field 
+				name="display_authors" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_AUTHORS_SEARCH" 
+				description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="authors_use_all" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_ALL_AUTHORS_OPTION" 
+				description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="authorsource" 
+				type="list" 
+				default="both" 
+				label="COM_EGOLTARCHIVE_AUTHORS_SOURCE" 
+				description=""
+			>
+				<option value="onlyoriginal">COM_EGOLTARCHIVE_AUTHORS_ONLYORIGINAL</option>
+				<option value="onlyalias">COM_EGOLTARCHIVE_AUTHORS_ONLYALIAS</option>
+				<option value="both">COM_EGOLTARCHIVE_AUTHORS_BOTH</option>
+			</field>
+			<field
+				type="spacer" 
+				label="COM_EGOLTARCHIVE_TEXT_INCLUDE_SEARCH_SETTING" 
+				class="egspacer"
+			/>
+			<field 
+				name="text_inc_search" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_TEXT_INCLUDE_SEARCH" 
+				description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="text_inc_exact_search" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_EXACT_SEARCH_OPTION" 
+				description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field
+				type="spacer" 
+				label="COM_EGOLTARCHIVE_TEXT_NOT_INCLUDE_SEARCH_SETTING" 
+				class="egspacer"
+			/>			
+			<field 
+				name="text_notinc_search" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_TEXT_NOT_INCLUDE_SEARCH" 
+				description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="text_notinc_exact_search" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_EXACT_SEARCH_OPTION" 
+				description=""
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+		</fieldset>
+		
+		<fieldset 
+			name="paging" 
+			label="COM_EGOLTARCHIVE_PAGING_SETTINGS"
+		>	
+			<field 
+				name="items_qt" 
+				type="text" 
+				default="" 
+				label="COM_EGOLTARCHIVE_ITEMS_PER_PAGE" 
+				description=""
+				size="3"
+			/>
+			<field 
+				name="display_pcounters" 
+				type="list" 
+				default="1" 
+				label="COM_EGOLTARCHIVE_DISPLAY_PCOUNTERS" 
+				description="COM_EGOLTARCHIVE_DISPLAY_PCOUNTERS_DESC"
+			>
+				<option value="1">EGO_YES</option>
+				<option value="0">EGO_NO</option>
+			</field>
+			<field 
+				name="paging_position" 
+				type="list" 
+				default="both" 
+				label="COM_EGOLTARCHIVE_PAGING_POSITION" 
+				description=""
+			>
+				<option value="top">COM_EGOLTARCHIVE_ONLYTOP</option>
+				<option value="bottom">COM_EGOLTARCHIVE_ONLYBOTTOM</option>
+				<option value="both">COM_EGOLTARCHIVE_BOTH</option>
+			</field>
+		</fieldset>
+</config>
