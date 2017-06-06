@@ -1,7 +1,7 @@
 # Egolt Archive
 ### Search in any content in any time!
 
-Egolt Archive is a pack of Joomla! extension which provides the ability to present the Joomla! contents and any other sources in different intervals of time that you need to archive and search. This ability is not embedded in the Joomla! core ,however it is very practical and necessary.
+Egolt Archive is a pack of Joomla! extensions which provides the ability to present the Joomla! contents and any other sources in different intervals of time that you need to archive and search. This ability is not embedded in the Joomla! core ,however it is very practical and necessary.
 
 #### Everything can be listed, Everything can be searched!
 The power of different sources(extensions) integration in Egolt Archive enables you to list and search everthing you want. Here are list of native extension's integration (besides you can extend your needed extension integration, if you are a programmer):
