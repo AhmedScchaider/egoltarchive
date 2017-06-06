@@ -96,11 +96,11 @@ All the component and modules are fully supported Right To Left languages(RTL). 
 * People who want to show the content in various displaying type(like feed, photo gallery, ...)
 * AND Who Love the Quality on their website's search and listing section !!!
 
-## No Support
-I make this project available free of charge to everyone in hope that it will be useful. However, I will not accept any feature requests, feature patches or support requests. Emails, GitHub Issues and Pull Requests containing any of these will be deleted / closed without reply. Thank you for your understanding.
-
 ## Setup
 You can install this project by downloading the zip file of repository and then using the Joomla! extension manager available in the Joomla! Administrator Control Panel.
+
+## No Support
+I make this project available free of charge to everyone in hope that it will be useful. However, I will not accept any feature requests, feature patches or support requests. Emails, GitHub Issues and Pull Requests containing any of these will be deleted / closed without reply. Thank you for your understanding.
 
 ## Open Source License
 
